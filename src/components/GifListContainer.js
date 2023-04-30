@@ -1,4 +1,5 @@
 import react, {useState} from "react";
+import GifSearch from "./GifSearch";
 
 
 function GifListContainer(){
