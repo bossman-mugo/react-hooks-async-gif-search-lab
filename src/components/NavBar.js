@@ -5,6 +5,7 @@ function NavBar({ color, title }) {
     black: "navbar-inverse",
     white: "navbar-default",
   };
+  
 
   return (
     <nav className={`navbar ${colors[color]}`}>
