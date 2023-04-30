@@ -1,6 +1,6 @@
 import react, {useState} from "react";
 import GifSearch from "./GifSearch";
-
+import GifList from "./GifList";
 
 function GifListContainer(){
     const [gifs, setGifs] = useState([]);
