@@ -21,9 +21,23 @@ function GifListContainer(){
 
     }
 
-    
+    return (
+        <div>
+
+            <GifSearch onSearch={handleSearch} />
+            <GifList gifs={gifs} />
+
+
+
+
+        </div>
+    )
+
+
 
 
 
 
 }
+
+export default GifListContainer;
